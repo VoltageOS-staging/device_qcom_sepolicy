@@ -372,3 +372,8 @@ attribute vendor_hal_qvirtvendor_server;
 attribute vendor_hal_snapx_service_qti;
 attribute vendor_hal_snapx_service_qti_client;
 attribute vendor_hal_snapx_service_qti_server;
+
+#attributes for aks gamepad hal
+attribute hal_gamepad;
+attribute hal_gamepad_client;
+attribute hal_gamepad_server;
