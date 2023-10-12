@@ -155,6 +155,10 @@ attribute vendor_hal_qseecom;
 attribute vendor_hal_qseecom_client;
 attribute vendor_hal_qseecom_server;
 
+attribute vendor_hal_minkipcbinder;
+attribute vendor_hal_minkipcbinder_client;
+attribute vendor_hal_minkipcbinder_server;
+
 attribute vendor_hal_secureprocessor;
 attribute vendor_hal_secureprocessor_client;
 attribute vendor_hal_secureprocessor_server;
