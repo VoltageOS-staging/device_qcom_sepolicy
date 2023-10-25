@@ -26,7 +26,7 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 # Changes from Qualcomm Innovation Center are provided under the following license:
-# Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
+# Copyright (c) 2022-2023 Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 
 #Add new domain for DataServices
@@ -82,3 +82,6 @@ user=_app seinfo=platform name=com.qualcomm.qti.xrcb domain=vendor_xrcb_app type
 
 # Add new domain for device integration service app
 user=_app isPrivApp=true name=com.microsoft.deviceintegrationservice domain=device_integration type=privapp_data_file levelFrom=user
+
+#Add new domain for system helper service using for Trusted UI
+user=system seinfo=platform name=com.qualcomm.qti.services.systemhelper:systemhelper_service domain=vendor_systemhelper_app type=system_app_data_file
