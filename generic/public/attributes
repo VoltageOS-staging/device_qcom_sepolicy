@@ -323,6 +323,10 @@ attribute vendor_hal_qspa_qti;
 attribute vendor_hal_qspa_qti_client;
 attribute vendor_hal_qspa_qti_server;
 
+attribute vendor_hal_xpanprovider;
+attribute vendor_hal_xpanprovider_client;
+attribute vendor_hal_xpanprovider_server;
+
 attribute vendor_hal_cacert_qti;
 attribute vendor_hal_cacert_qti_client;
 attribute vendor_hal_cacert_qti_server;
