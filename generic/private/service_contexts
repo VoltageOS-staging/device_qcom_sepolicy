@@ -60,3 +60,5 @@ vendor.qti.qvirt.IVirtualizationService/default   u:object_r:vendor_hal_qvirt_se
 vendor.virtual_keyboard                   u:object_r:vendor_virtual_keyboard_service:s0
 cross_device_service                      u:object_r:cross_device_service:s0
 android.media.audio.IHalAdapterVendorExtension/default               u:object_r:audioserver_service:s0
+vendor.qti.hardware.systemhelperaidl.ISystemEvent/default     u:object_r:vendor_hal_systemhelper_aidl_service:s0
+vendor.qti.hardware.systemhelperaidl.ISystemResource/default  u:object_r:vendor_hal_systemhelper_aidl_service:s0

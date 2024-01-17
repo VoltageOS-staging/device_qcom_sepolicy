@@ -27,3 +27,4 @@
 type vendor_hal_atfwd_hwservice, coredomain_hwservice, hwservice_manager_type, protected_hwservice;
 type vendor_sigmahal_hwservice, hwservice_manager_type, protected_hwservice;
 type vendor_qccsyshal_hwservice, hwservice_manager_type, protected_hwservice, coredomain_hwservice;
+type vendor_hal_systemhelper_hwservice, coredomain_hwservice, hwservice_manager_type, protected_hwservice;
