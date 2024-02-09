@@ -26,7 +26,7 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 # Changes from Qualcomm Innovation Center are provided under the following license:
-# Copyright (c) 2023 Qualcomm Innovation Center, Inc. All rights reserved.
+# Copyright (c) 2023, 2024 Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 
 cneservice                                           u:object_r:vendor_cne_service:s0
@@ -62,3 +62,4 @@ cross_device_service                      u:object_r:cross_device_service:s0
 android.media.audio.IHalAdapterVendorExtension/default               u:object_r:audioserver_service:s0
 vendor.qti.hardware.systemhelperaidl.ISystemEvent/default     u:object_r:vendor_hal_systemhelper_aidl_service:s0
 vendor.qti.hardware.systemhelperaidl.ISystemResource/default  u:object_r:vendor_hal_systemhelper_aidl_service:s0
+vendor.qti.hardware.sigma_miracast_aidl.ISigma_miracast/default u:object_r:vendor_hal_sigma_miracast_service:s0
