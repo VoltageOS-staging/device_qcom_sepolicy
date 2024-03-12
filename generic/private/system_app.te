@@ -52,3 +52,5 @@ hal_client_domain(system_app, vendor_hal_wifimyftm);
 ')
 
 unix_socket_connect(system_app, vendor_dpmtcm, vendor_tcmd);
+
+qesdk_app_access(system_app);
