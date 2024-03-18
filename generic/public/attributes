@@ -27,7 +27,7 @@
 #
 # Changes from Qualcomm Innovation Center are provided under the following license:
 #
-# Copyright (c) 2022-2023 Qualcomm Innovation Center, Inc. All rights reserved.
+# Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 #
 
@@ -58,6 +58,10 @@ attribute vendor_hal_display_postproc_server;
 attribute vendor_hal_display_demura;
 attribute vendor_hal_display_demura_client;
 attribute vendor_hal_display_demura_server;
+
+attribute vendor_hal_display_aiqe;
+attribute vendor_hal_display_aiqe_client;
+attribute vendor_hal_display_aiqe_server;
 
 # All types in /mnt/vendor/persist
 attribute vendor_persist_type;
@@ -151,6 +155,10 @@ attribute vendor_hal_qseecom;
 attribute vendor_hal_qseecom_client;
 attribute vendor_hal_qseecom_server;
 
+attribute vendor_hal_minkipcbinder;
+attribute vendor_hal_minkipcbinder_client;
+attribute vendor_hal_minkipcbinder_server;
+
 attribute vendor_hal_secureprocessor;
 attribute vendor_hal_secureprocessor_client;
 attribute vendor_hal_secureprocessor_server;
@@ -166,6 +174,10 @@ attribute vendor_wifidisplayhalservice_server;
 attribute vendor_hal_vpp;
 attribute vendor_hal_vpp_client;
 attribute vendor_hal_vpp_server;
+
+attribute vendor_hal_hexlp;
+attribute vendor_hal_hexlp_client;
+attribute vendor_hal_hexlp_server;
 
 attribute vendor_hal_qconfig;
 attribute vendor_hal_qconfig_client;
@@ -322,6 +334,10 @@ attribute vendor_hal_imsrtphal_server;
 attribute vendor_hal_qspa_qti;
 attribute vendor_hal_qspa_qti_client;
 attribute vendor_hal_qspa_qti_server;
+
+attribute vendor_hal_xpanprovider;
+attribute vendor_hal_xpanprovider_client;
+attribute vendor_hal_xpanprovider_server;
 
 attribute vendor_hal_cacert_qti;
 attribute vendor_hal_cacert_qti_client;

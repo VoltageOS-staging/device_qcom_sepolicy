@@ -59,3 +59,6 @@ userdebug_or_eng(`
 ')
 
 allow vendor_qccsyshal_qti vendor_qcc_netstat_app:unix_stream_socket connectto;
+
+#Allow qccsyshal_aidl to be registered with service manager
+hal_attribute_service(vendor_qccsyshal, vendor_qccsyshal_service);
