@@ -28,7 +28,7 @@
 # Changes from Qualcomm Innovation Center are provided under the following
 # license:
 #
-# Copyright (c) 2022-2023 Qualcomm Innovation Center, Inc.
+# Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted (subject to the limitations in the
@@ -77,5 +77,6 @@ allow vendor_systemhelper_app system_app_data_file:dir rw_dir_perms;
 allow vendor_systemhelper_app thermal_service:service_manager find;
 allow vendor_systemhelper_app vendor_perf_service:service_manager find;
 allow vendor_systemhelper_app app_api_service:service_manager find;
+dontaudit vendor_systemhelper_app system_data_file:dir search;
 
 hal_attribute_service(vendor_hal_systemhelper, vendor_hal_systemhelper_aidl_service)
