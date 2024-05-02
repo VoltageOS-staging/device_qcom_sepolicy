@@ -346,3 +346,11 @@ attribute vendor_hal_cacert_qti_server;
 attribute vendor_hal_systemhelper;
 attribute vendor_hal_systemhelper_client;
 attribute vendor_hal_systemhelper_server;
+
+attribute vendor_syshealthmon;
+attribute vendor_syshealthmon_client;
+attribute vendor_syshealthmon_server;
+
+attribute vendor_hal_c2pa;
+attribute vendor_hal_c2pa_client;
+attribute vendor_hal_c2pa_server;
