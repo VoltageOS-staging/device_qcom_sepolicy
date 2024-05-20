@@ -2,3 +2,4 @@
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 
 get_prop(dumpstate,vendor_sys_bugreport_cpuinfo_disable)
+binder_call(dumpstate, virtualizationservice)
