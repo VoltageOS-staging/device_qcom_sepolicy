@@ -135,6 +135,10 @@ attribute vendor_hal_iop;
 attribute vendor_hal_iop_client;
 attribute vendor_hal_iop_server;
 
+attribute vendor_hal_MemHal;
+attribute vendor_hal_MemHal_client;
+attribute vendor_hal_MemHal_server;
+
 attribute vendor_hal_soter;
 attribute vendor_hal_soter_client;
 attribute vendor_hal_soter_server;
