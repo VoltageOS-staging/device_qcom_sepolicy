@@ -358,3 +358,7 @@ attribute vendor_syshealthmon_server;
 attribute vendor_hal_c2pa;
 attribute vendor_hal_c2pa_client;
 attribute vendor_hal_c2pa_server;
+
+attribute vendor_hal_qvirtvendor;
+attribute vendor_hal_qvirtvendor_client;
+attribute vendor_hal_qvirtvendor_server;
