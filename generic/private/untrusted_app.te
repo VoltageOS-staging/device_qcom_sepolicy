@@ -40,4 +40,4 @@ typeattribute untrusted_app vendor_hal_sxrservice_qti_socket_fd_use_client;
 hal_client_domain(untrusted_app, vendor_hal_dspmanager)
 
 # allow 3-pty process access to snapx aidl
-hal_client_domain(untrusted_app_32, vendor_hal_snapx_service_qti)
+hal_client_domain(untrusted_app, vendor_hal_snapx_service_qti)
