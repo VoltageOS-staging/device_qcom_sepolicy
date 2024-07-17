@@ -358,3 +358,12 @@ attribute vendor_syshealthmon_server;
 attribute vendor_hal_c2pa;
 attribute vendor_hal_c2pa_client;
 attribute vendor_hal_c2pa_server;
+
+attribute vendor_hal_qvirtvendor;
+attribute vendor_hal_qvirtvendor_client;
+attribute vendor_hal_qvirtvendor_server;
+
+# attributes for snapdragon services hal
+attribute vendor_hal_snapx_service_qti;
+attribute vendor_hal_snapx_service_qti_client;
+attribute vendor_hal_snapx_service_qti_server;
