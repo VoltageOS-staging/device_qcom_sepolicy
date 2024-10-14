@@ -52,6 +52,7 @@
 /(system_ext|system/system_ext)/bin/dpmd        u:object_r:vendor_dpmd_exec:s0
 /(system_ext|system/system_ext)/bin/tcmd        u:object_r:vendor_tcmd_exec:s0
 /system/bin/vpsservice                          u:object_r:vendor_vpsservice_exec:s0
+/system/bin/gppservice                          u:object_r:vendor_gppservice_exec:s0
 
 ####### system_ext file ###############
 /(system_ext|system/system_ext)/bin/dun-server  u:object_r:vendor_dun-server_exec:s0
