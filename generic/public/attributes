@@ -372,3 +372,8 @@ attribute vendor_hal_qvirtvendor_server;
 attribute vendor_hal_snapx_service_qti;
 attribute vendor_hal_snapx_service_qti_client;
 attribute vendor_hal_snapx_service_qti_server;
+
+# For BluetoothFmd
+attribute vendor_hal_bluetooth_fmd;
+attribute vendor_hal_bluetooth_fmd_client;
+attribute vendor_hal_bluetooth_fmd_server;
